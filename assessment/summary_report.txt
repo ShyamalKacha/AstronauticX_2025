@@ -1,0 +1,73 @@
+ExoFinder Model Assessment Summary
+==================================================
+
+Best Model Performance (Random Forest):
+----------------------------------------
+Model: RandomForest
+Accuracy: 0.7585
+Overall Precision (weighted): 0.7408
+Overall Recall (weighted): 0.7585
+Overall F1-Score (weighted): 0.7432
+
+Per-class metrics:
+         Class  Precision   Recall  F1-Score
+     CANDIDATE   0.512821 0.294118  0.373832
+     CONFIRMED   0.728435 0.835165  0.778157
+FALSE POSITIVE   0.827503 0.865069  0.845869
+
+Detailed Classification Report:
+                precision    recall  f1-score   support
+
+     CANDIDATE       0.51      0.29      0.37       272
+     CONFIRMED       0.73      0.84      0.78       546
+FALSE POSITIVE       0.83      0.87      0.85       793
+
+      accuracy                           0.76      1611
+     macro avg       0.69      0.66      0.67      1611
+  weighted avg       0.74      0.76      0.74      1611
+
+
+Model Comparison:
+--------------------
+Model Comparison Report
+==================================================
+             Model  Accuracy  Precision_Weighted  Recall_Weighted  F1_Weighted
+      RandomForest  0.758535            0.740796         0.758535     0.743222
+  GradientBoosting  0.744258            0.722953         0.744258     0.722699
+LogisticRegression  0.689013            0.583492         0.689013     0.629211
+
+
+RandomForest Classification Report:
+                precision    recall  f1-score   support
+
+     CANDIDATE       0.51      0.29      0.37       272
+     CONFIRMED       0.73      0.84      0.78       546
+FALSE POSITIVE       0.83      0.87      0.85       793
+
+      accuracy                           0.76      1611
+     macro avg       0.69      0.66      0.67      1611
+  weighted avg       0.74      0.76      0.74      1611
+
+GradientBoosting Classification Report:
+                precision    recall  f1-score   support
+
+     CANDIDATE       0.47      0.22      0.30       272
+     CONFIRMED       0.69      0.86      0.77       546
+FALSE POSITIVE       0.83      0.85      0.84       793
+
+      accuracy                           0.74      1611
+     macro avg       0.66      0.64      0.63      1611
+  weighted avg       0.72      0.74      0.72      1611
+
+LogisticRegression Classification Report:
+                precision    recall  f1-score   support
+
+     CANDIDATE       0.00      0.00      0.00       272
+     CONFIRMED       0.59      0.83      0.69       546
+FALSE POSITIVE       0.78      0.83      0.80       793
+
+      accuracy                           0.69      1611
+     macro avg       0.46      0.55      0.50      1611
+  weighted avg       0.58      0.69      0.63      1611
+
+

@@ -1,0 +1,6 @@
+toi,tfopwg_disp,toi_period,toi_duration,toi_depth,toi_rads,toi_steff,toi_slogg,toi_tmag
+1.01,CANDIDATE,2.4,2.1,10.5,0.8,5700,4.4,8.5
+1.02,FALSE POSITIVE,5.2,3.2,5.2,1.2,5500,4.5,9.2
+2.01,CANDIDATE,10.5,1.8,20.1,1.5,6000,4.3,7.8
+2.02,CONFIRMED,3.1,4.1,8.3,0.9,5800,4.4,10.1
+3.01,CANDIDATE,8.7,2.9,15.7,1.1,5600,4.6,9.8

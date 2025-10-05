@@ -1,0 +1,22 @@
+Model: RandomForest
+Accuracy: 0.7585
+Overall Precision (weighted): 0.7408
+Overall Recall (weighted): 0.7585
+Overall F1-Score (weighted): 0.7432
+
+Per-class metrics:
+         Class  Precision   Recall  F1-Score
+     CANDIDATE   0.512821 0.294118  0.373832
+     CONFIRMED   0.728435 0.835165  0.778157
+FALSE POSITIVE   0.827503 0.865069  0.845869
+
+Detailed Classification Report:
+                precision    recall  f1-score   support
+
+     CANDIDATE       0.51      0.29      0.37       272
+     CONFIRMED       0.73      0.84      0.78       546
+FALSE POSITIVE       0.83      0.87      0.85       793
+
+      accuracy                           0.76      1611
+     macro avg       0.69      0.66      0.67      1611
+  weighted avg       0.74      0.76      0.74      1611
